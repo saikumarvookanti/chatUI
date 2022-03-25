@@ -50,6 +50,7 @@ function ProfileCard() {
   return (
     <div className='profileCard'>
       {/* <img src={chatLogo} alt="pp"/> */}
+      <div className='detailsNamecircle'><span>BB</span></div>
       <div><span className='name'>{"Bill Brandford"}</span><SettingsOutlinedIcon  fontSize="small" /> </div>
       <p className='designation'>{"Lead UX/UI Designer"}</p>
       <div className='switchClass'><AntSwitch defaultChecked /><span style={{'fontWeight':'300','paddingLeft':'5px'}}>{"Active"}</span></div>
