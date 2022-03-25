@@ -1,0 +1,26 @@
+.profileContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+.dataContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+.cardContainer{
+    margin: 0 10px;
+}
+.quickChat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.chatLogo{
+    object-fit: contain;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}

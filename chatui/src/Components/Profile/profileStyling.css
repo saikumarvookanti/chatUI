@@ -1,0 +1,62 @@
+.profileCard{
+    background-color: #f0f5f5;
+     /* #e6e6ff; */
+    /* #f0f0f5 */
+    padding:10% 5%;
+    width: 90%;
+    border-radius: 10px;
+    text-align: center;
+}
+.name{
+     font-size: 16px;
+     font-weight: 600;
+     margin: 0;
+     padding: 5px;   
+}
+.designation{
+    font-size: small;
+    margin: 0;
+    font-weight:300;
+    padding: 5px;
+} 
+.switchClass{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.conversation{
+    display: flex;
+    flex-direction: column;
+}
+
+.activeConvheading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+.activeCount{
+    background-color: #d6d6c2;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}
+.activeConvheading > p{
+    font-weight: 500;
+    margin: 0;
+}
+.displayNameStyling{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 500
+}
+.displayNameStyling:hover{
+    background-color: #f0f5f5;
+    border-radius: 10px;
+}

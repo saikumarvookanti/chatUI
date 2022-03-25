@@ -1,0 +1,67 @@
+
+/* DetailsCard */
+
+.detailsCard{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f5f5;
+    border-radius: 15px;
+    width: 85%;
+    margin: 10px 0px;
+}
+.detailsNamecircle{
+    display: flex;
+    justify-content: center;
+}
+.detailsNamecircle >span{
+    background-color: #6699ff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.detailsNameEmail>p{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.archiveBtn{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 0px;
+}
+.archiveBtn>button{
+    text-transform: capitalize !important;
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+/* OnBoardCard */
+.onBoardCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f5f5;
+    width: 85%;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px 0px;
+}
+.onBoardCard>h4{
+    margin: 20px 0px 10px;
+}
+.onBoardCard>p{
+    padding: 0px 10px;
+}
+.onBoardCard>button{
+    text-transform: capitalize !important;
+}
+.onBoardCard>button>svg{
+    transform: rotate(-45deg);
+}
+
