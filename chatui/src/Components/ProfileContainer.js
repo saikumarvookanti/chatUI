@@ -1,7 +1,7 @@
 import Profile from "./Profile/ProfileCard";
 import Conversation from "./Profile/Conversation";
 import './Container.css';
-import chatLogo from "../chatLogo.png";
+import chatLogo from "../common/chatLogo.png";
 
 
 const ProfileContainer = () => {
