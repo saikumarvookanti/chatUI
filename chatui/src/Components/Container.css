@@ -80,21 +80,46 @@
 }
 
 
-.messages>.userMessage{
-    float:right;
+.userMessage{
     background-color: #1a1a1a;
     padding:10px;
     color:rgb(214, 209, 209);
     border-radius: 10px;
     margin:5px 10px;
+    float: right;
 }
-.messages>.botMessage{
+.botMessageLine{
+    display: flex;
+    align-items: center;
+}
+.userMessageLine{
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.chatImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.botMessage{
     float: left;
     background-color: white;
     padding:10px;
     color:black;
     border-radius: 10px;
     margin:5px 10px;
+}
+.activeIndicatorSpan{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 3px;
+    background: #006600;
+    bottom: 3px;
+    border-radius: 50%;
+    border: 0.25px solid white;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */

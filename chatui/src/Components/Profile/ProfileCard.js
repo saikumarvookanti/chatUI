@@ -4,6 +4,7 @@ import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import Switch from '@mui/material/Switch';
 import { styled } from '@mui/material/styles';
 // import chatLogo from "../../chatLogo.png";
+import pp from '../../common/img4.jpg';
 
 const AntSwitch = styled(Switch)(({ theme }) => ({
   width: 28,
@@ -49,8 +50,8 @@ const AntSwitch = styled(Switch)(({ theme }) => ({
 function ProfileCard() {
   return (
     <div className='profileCard'>
-      {/* <img src={chatLogo} alt="pp"/> */}
-      <div className='detailsNamecircle'><span>BB</span></div>
+      <img src={pp} alt="pp"/>
+      {/* <div className='detailsNamecircle'><span>BB</span></div> */}
       <div><span className='name'>{"Bill Brandford"}</span><SettingsOutlinedIcon  fontSize="small" /> </div>
       <p className='designation'>{"Lead UX/UI Designer"}</p>
       <div className='switchClass'><AntSwitch defaultChecked /><span style={{'fontWeight':'300','paddingLeft':'5px'}}>{"Active"}</span></div>
